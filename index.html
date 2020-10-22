@@ -1,1 +1,89 @@
-Hello Gary
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="viewport" content="initial-scale=1.0">
+	<title>Guowei Yan</title>
+    <meta name="description" content="Guowei Yan">
+    <meta name="keywords" content="Guowei Yan, Guowei, Yan, The Ohio State University, osu, graphics, physically based animation, ???">
+    <link rel="stylesheet" href="./resources/style.css">
+	<style type="text/css"></style>
+</head>
+
+<body>
+	<div class="padded">
+    	<h2><a href="http://web.cse.ohio-state.edu/~yangu/">Hi, I'm Guowei Yan</a></h2>
+		<div id="nav"><a href="http://web.cse.ohio-state.edu/~yangu/" class="current">Projects</a> • <a href="http://web.cse.ohio-state.edu/~yangu/profile.html">About Me </a> • <a href="./resources/Guowei_Yan_Resume.pdf">Resume</a></div>
+    </div>
+     
+	<div id="header"></div>
+     
+    <div class="padded">
+
+    	<div class="project">
+            <div class="image">
+                <div>
+                    <div id="sketch"></div></div></div>
+            <h3>Sketch Liquid Splashes with Neural Networks</h3>
+            <p> Splashing liquid is one of the most fascinating phenomena in fluid dynamics. We propose to use deep generative models for liquid splashes modeling. We combine sketch based techniques with the data-driven approach. Sketching empowers the artists with the ability to draw the shapes very intuitively. Without simulation, our model can generate the output very quickly. So the artists is able to design and edit interactively to achieve a desired result. 
+        	</p><p><a href="./resources/sketch.mkv">VR Demo...</a></p>
+        </div> 
+
+        <div class="project">
+            <div class="image">
+                <div>
+                    <div id="inexact"></div></div></div>
+            <h3>Inexact Descent Methods for Elastic Parameter Optimization</h3>
+            <p> Elastic parameter optimization is known to be computationally expensive. We propose to introduce the inexactness into descent methods, by iteratively solving a forward simulation step and a parameter update step in an inexact manner. Our method runs orders-of-magnitude faster than existing methods. We demonstrate the use of our inexact method in elastic material measurement, such as this synthetic <a href="./resources/skull.mp4">skull</a> model. And in interactive material design, as shown in this <a href="./resources/armadillo.mp4">armadillo</a> example, where the left arm is soft while the right arm is stiff, as expected.</p>
+
+            <h4><p>  <a href= "http://yanguowei.com"> Guowei Yan</a>, Wei Li, Ruigang Yang and <a href= "http://web.cse.ohio-state.edu/~wang.3602/index.html"> Huamin Wang</a>. 2018. Inexact Descent Methods for Elastic Parameter Optimization. ACM Transactions on Graphics <a href="https://sa2018.siggraph.org/en/">(SIGGRAPH Asia)</a> <a href="./resources/a253-yan.pdf">PDF </a> </p></h4>
+        </div>
+
+    	<div class="project">
+            <div class="image">
+                <div>
+                    <div id="facial"></div></div></div>
+            <h3>Audio-driven facial animation</h3>
+            <p> A tensorflow implementation of "Audio-Driven Facial Animation by Joint End-to-End Learning of Pose and Emotion". The deep neural network learns a mapping from input waveforms to the 3D vertex coordinates of a face model. Such model can be widely used in virtual applications, for example, creating a talking avatar... 
+        	</p><p><a href=""></a></p>
+        </div>
+
+    	<div class="project">
+            <div class="image">
+                <div>
+                    <div id="cloth"></div></div></div>
+            <h3>Cloth Simulation</h3>
+            <p> Clothes simulation has been an important area of research in computer graphics for its wide applications, for example, in the fashion industry. Simulation techniques, for example, the position-based/projective dynamics and the multigrid method cab be used because they are proven to be fast and stable, which makes it possible for real-time applications. Another key part for clothes simulation is the handling of the collisions and contacts. This includes clothes self-collisions, like different parts of the clothes may intersect with each other and the also contact between clothes and the virtual human body...</p><p><a href="./resources/cloth.mp4">Real-time demo...</a></p>
+        </div>
+
+			
+    	<div class="project">
+        	<div class="image">
+            	<div>
+                	<div id="hyperelastic"></div></div></div>
+        	<h3>Hyperelasticity: FEM Simulation</h3>
+            <p> Creating believable and compelling character motions is the central challenge in animated movie productions. Manually rigging a character for each animation keyframe is tedious and time consuming. On the other hand, physics-based simulation excel at creating such realistic effects, such as the simulation of secondary motion, but are inherently difficult to control. Rig-Space Physics unifies keyframing and physical simulation by creating an underlying representation of the character based on an elastic deformable material and formulating the equations of motions in the subspace of deformations defined by an animator’s rig. </p> <p><a href="./resources/ball.mp4">Rig-space FEM: bouncing ball...</a></p>
+
+            <p> The Finite Element Method has been very popular in the simulation of deformable elastic solids. The neo-Hookean model is a hyperelastic material model that can be used for predicting the nonlinear stress-strain behavior of materials undergoing large deformations. For example, it is usable for rubber-like substances and biological materials. The energy function is deined via principle stretches, which is isotropic and invertible.</p> <p><a href="./resources/elephant.mp4">Real-time demo: walking elephant...</a></p> <p><a href="./resources/plant.mp4">Real-time demo: plant...</a></p>
+        </div>
+
+
+        <div class="project">
+        	<div class="image">
+            	<div>
+                	<div id="geometry"></div></div></div>
+        	<h3>G.E.M: geometry modeling</h3>
+            <p> G.E.M. is a lightweight 3D geometry modeling tool. It is very convenient for Curve Modeling, Basic Geometric Models Generation, Surface Modeling and Curve reconstruction. For curve modeling, you can generate Bezier curve, Cubic B-spline or Quadric B-spline. And then you can construct basic geometric models through operations like revolution, extrusion, sweeping and lofting. For Surface Modeling, besides the basic Bezier surface and B-spline surface, more general subdivision surfaces like Doo-Sabin surface, Catmull-Clark surface or Loop surface are also supported. 2D Curve reconstruction is implemented using Nearest Neighor Algorithm and Crust Algorithm. 
+</p>
+            <p><a href="./resources/GEM.mp4">Watch demo...</a></p></div>
+
+
+	</div>
+
+    <div id="footer"></div>
+<script async src="./resources/analytics.js"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-17521220-1', 'auto');
+ga('send', 'pageview');
+</script></body></html>
